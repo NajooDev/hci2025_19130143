@@ -1,2 +1,2 @@
 # hci2025
-Repository môn giao tiêp người máy 2025
+Repository môn giao tiếp người máy 2025
