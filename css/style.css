@@ -32,24 +32,60 @@ li a:hover:not(.active) {
 }
 
 .center .title{
-    height:fit-content;
+    width: 100%;
     text-align: center;
+    border: 1px solid black;
+    margin:0px 0px 7px 0px;
+    background-color: #008081;
 }
+
+.center .detail {
+    /* background-color: #90bc8b; */
+    padding-top: 14px;
+    margin: 6px;
+}
+
+
 
 .center .detail div{
-    overflow: auto;
-    margin:12px 52px;
-}
-
-.center .detail p{
-    float: left;
-    width:40%;
-    margin:0;
-    padding:0;
+    width:80%;
+    margin:12px auto;
 }
 
 .center .detail input{
-    float: right;
-    width:55%;
-    margin:auto 0px;
+    width:90%;
+    height:30px;
 }
+
+.center .detail select{
+    width: 34%;
+    margin-right: 26px;
+}
+
+.center .detail .buttons {
+    overflow: auto;
+}
+
+.center .detail .buttons button{
+    float:right;
+    margin-left: 12px;
+}
+.center label{
+    margin-right: 11px;
+}
+
+/*
+.center .detail input{
+    float: right;
+    width:50%;
+}
+
+
+
+
+.center .detail .buttons input[type="button"] {
+    float:right;
+    width:fit-content;
+    margin-right: 24px;
+    width: 76px;
+} */

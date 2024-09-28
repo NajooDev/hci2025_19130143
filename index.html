@@ -6,9 +6,9 @@
 <body>
 
 <ul>
-  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#">Home</a></li>
   <li><a href="#">About</a></li>
-  <li><a href="#contact">Labs</a></li>
+  <li><a href="#" class="active" >Labs</a></li>
 </ul>
 
 
@@ -20,25 +20,56 @@
         </div>
         
         <div class="detail">
-           <div class="username">
-                <label for="username">Username:</label>
-                <input type="text" name="username" id="username" placeholder="Enter your username">
-            </div> 
-
-            <div class="password">
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="Enter your password">
-            </div> 
-
-            <div class="email">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-            </div> 
-
-            <div class="fullname">
-                <label for="fullname">Fullname:</label>
-                <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
-            </div> 
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <br>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+                </div>
+        
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+        
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+        
+                <div class="fullname">
+                    <label for="fullname">Fullname:</label>
+                    <br>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
+                </div>
+        
+                <div class="role">
+                    <label for="role">Role:</label>
+                    <select name="role" id="role">
+                        <option value="default">--Choose your role--</option>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                    </select>
+        
+                    <label for="profile_picture">Profile Picture</label>
+                    <button>Import</button>
+                </div>
+        
+                <div class="createAt">
+                    <label for="createAt">Account Created At:</label>
+                    <span>28/09/2024</span>
+                </div>
+                <div class="updateAt">
+                    <label for="updateAt">Last Updated At:</label>
+                    <span>28/09/2024</span>
+                </div>
+        
+            
+                <div class="buttons">
+                    <button>Create Account</button>
+                    <button>Cancel</button>
+                </div>
         </div>
     </div>
 </body>
