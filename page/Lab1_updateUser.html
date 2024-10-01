@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Update User</title>
+</head>
+<body>
+
+    <div class="header">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="active">Labs</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="center">
+
+        <div class="sidebar">
+            <a class="active" href="../index.html"><i class="fa fa-book" aria-hidden="true"></i> Lab 1</a>
+            <a href="#product"><i class="fa fa-book" aria-hidden="true"></i> Lab 2</a>
+            <a href="#order"><i class="fa fa-book" aria-hidden="true"></i> Lab 3</a>
+        </div>
+    
+        <div class="content">
+            <!-- Nội dung trang web -->
+             <div class="title">
+                <a href="#" style="color:#5491c1">User List</a> <span>></span> <a href="#" style="color: #b2bcc1">Update User</a>
+             </div>
+
+
+            <div class="content_detail">
+                <div class="detail">
+                    <div class="username">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" placeholder="Enter your username" value="Admin">
+                    </div>
+            
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" value="1234567890">
+                    </div>
+            
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" value="a@gmail.com">
+                    </div>
+            
+                    <div class="fullname">
+                        <label for="fullname">Fullname:</label>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" value="Nguyễn Văn A">
+                    </div>
+            
+                    <div class="role">
+                        <label for="role">Role:</label>
+                        <select name="role" id="role">
+                            <option value="default">Admin</option>
+                            <option value="user">User</option>
+                        </select>
+                    </div>
+            
+                    <div class="createAt">
+                        <label for="createAt">Account Created At:</label>
+                        <input type="text" name="fullname" value="28/09/2024" readonly>
+                    </div>
+                    <div class="updateAt">
+                        <label for="updateAt">Last Updated At:</label>
+                        <input type="text" name="fullname" value="28/09/2024" readonly>
+                    </div>
+            
+            
+                    <div class="buttons">
+                        <button>Create Account</button>
+                        <button><a href="./Lab1_listUser.html" style="color:white;">Cancel</a></button>
+                    </div>
+                </div>
+            </div>
+             
+        </div>        
+    </div>
+</body>
+</html>
+
+

@@ -1,76 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+
 </head>
 <body>
 
-<ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#" class="active" >Labs</a></li>
-</ul>
+    <div class="header">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./page/Lab1_listUser.html">Labs</a></li>
+        </ul>
+    </div>
+
 
 
     <div class="center">
 
-        <div class="title">
-            <h2>User Account</h2>
+        <!-- <div class="sidebar">
+            <a class="active" href="#home"><i class="fa fa-book" aria-hidden="true"></i> Lab 1</a>
+            <a href="./page/Lab1_createUser.html"><i class="fa fa-book" aria-hidden="true"></i> Lab 2</a>
+            <a href="#order"><i class="fa fa-book" aria-hidden="true"></i> Lab 3</a>
+        </div>
+    
+        <div class="content">
+             <div class="title">
+                <a href="#" style="color:#5491c1">User List</a>
+             </div>
 
-        </div>
-        
-        <div class="detail">
-                <div class="username">
-                    <label for="username">Username:</label>
-                    <br>
-                    <input type="text" name="username" id="username" placeholder="Enter your username">
-                </div>
-        
-                <div class="password">
-                    <label for="password">Password:</label>
-                    <br>
-                    <input type="password" name="password" id="password" placeholder="Enter your password">
-                </div>
-        
-                <div class="email">
-                    <label for="email">Email:</label>
-                    <br>
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
-                </div>
-        
-                <div class="fullname">
-                    <label for="fullname">Fullname:</label>
-                    <br>
-                    <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
-                </div>
-        
-                <div class="role">
-                    <label for="role">Role:</label>
-                    <select name="role" id="role">
-                        <option value="default">--Choose your role--</option>
-                        <option value="user">User</option>
-                        <option value="admin">Admin</option>
-                    </select>
-        
-                    <label for="profile_picture">Profile Picture</label>
-                    <button>Import</button>
-                </div>
-        
-                <div class="createAt">
-                    <label for="createAt">Account Created At:</label>
-                    <span>28/09/2024</span>
-                </div>
-                <div class="updateAt">
-                    <label for="updateAt">Last Updated At:</label>
-                    <span>28/09/2024</span>
-                </div>
-        
+
+            <div class="content_detail">
+                <div class="detail" style="width: 90%; padding:0px;">
+                    <button class="addUser"><a href="./page/Lab1_createUser.html" style="color:white;">Create User</a></button>
+
+                    <div class="tableUser">
+                        <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Fullname</th>
+                            <th>Role</th>
+                            <th>Thao tác</th>
+                        </tr>
             
-                <div class="buttons">
-                    <button>Create Account</button>
-                    <button>Cancel</button>
+                        <tr>
+                            <td>1</td>
+                            <td>Admin</td>
+                            <td>a@gmail.com</td>
+                            <td>Nguyễn Văn A</td>
+                            <td>Admin</td>
+                            <td>
+                                <button>Xoá</button>
+                                <button><a href="./page/Lab1_updateUser.html" style="color:white;">Sửa</a></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>UserB</td>
+                            <td>b@gmail.com</td>
+                            <td>Nguyễn Văn B</td>
+                            <td>User</td>
+                            <td>
+                                <button>Xoá</button>
+                                <button><a href="./page/Lab1_updateUser.html" style="color:white;">Sửa</a></button>
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+                    
                 </div>
-        </div>
+            </div>
+             
+        </div> -->
+        
+        
     </div>
 </body>
 </html>
