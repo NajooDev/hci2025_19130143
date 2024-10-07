@@ -38,9 +38,32 @@ body{
     /* margin: 12px 450px; */
 }
 
+
+.center .home_detail {
+    width:100%;
+    background-color: #edf4f7;
+    text-align: center;
+}
+
+.center .home_detail img{
+    width:100%;
+}
+
+.center .home_detail .home_title{
+    width: 40%;
+    margin:0px auto;
+}
+
+.center .home_detail .home_title h1{
+    font-size: 53px;
+    margin-top: 10px;
+}
+
+.center .home_detail .home_title p{
+    font-size: 17px;
+}
 .sidebar {
     border-right: 2px inset #edf4f7;
-    text-shadow: 9px 6px 4px black;
     /* height: 100vh; */
     width: 15%;
     background-color: #fefefe;
@@ -61,11 +84,13 @@ body{
 .sidebar a:hover {
     background-color: #2fbed1; /* Màu xanh lam khi hover */
     color :white;
+    text-shadow: 9px 6px 4px black;
 } 
 
 .sidebar a.active {
     background-color: #2fbed1; /* Màu xanh lam đậm khi active */
     color: white;
+    text-shadow: 9px 6px 4px black;
 }
 
 .content {
@@ -179,3 +204,126 @@ button.addUser {
 a{
     text-decoration: none;
 }
+
+
+/*ABOUT*/
+.center .about_title{
+    color:#5491c1;
+    width:100%;
+    text-align: center;
+    /* border:1px solid black; */
+}
+
+.center .about_content{
+    background-color: #edf4f7;
+    width: 100%;
+    
+}
+
+.center .about_content .about_detail{
+    overflow: auto;
+    padding: 20px 227px;
+    width: 53%;
+    margin: 1px auto;
+}
+
+.center .about_content .about_detail .img_about{
+    float: left;
+    width: 28%;
+}
+.center .about_content .about_detail img{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.center .about_content .introduce {
+    float: right;
+    width: 60%;
+    margin-left: 40px;
+}
+.center .about_content .introduce h1{
+    width: 60%;
+    font-size: 40px;
+}
+
+.center .about_content .bio_highlight{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width:700px;
+    margin:1px auto;
+    margin-bottom: 90px;
+}
+
+.center .about_content .bio_highlight .grid_tittles{
+    text-decoration: underline;
+}
+
+.center .about_content .bio_highlight .grid_paragraph{
+    font-style: italic;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_1{
+    border-bottom:1px solid black;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_2{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_3 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding-bottom: 24px;
+    padding-left: 24px;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_4 {
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_5 {
+    border-left: 1px solid black;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.center .about_content .bio_highlight .highlight_detail_square_6 {
+    border-left: 1px solid black;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.center .about_content .footer{
+    overflow: hidden;
+    border-top: 1px solid #d3d6d9;
+    padding-bottom: 40px;
+}
+
+.center .about_content .footer h4{
+    color:#5491c1;
+}
+.center .about_content .footer p{
+    margin:0;
+    padding:0;
+}
+.center .about_content .footer .work{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+
+.center .about_content .footer .contact_information{
+    float:right;
+    width:50%;
+    text-align: center;
+}
+
+
