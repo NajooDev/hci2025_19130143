@@ -9,71 +9,70 @@
 </head>
 <body>
 
-    <div class="header">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./About.html">About</a></li>
-            <li><a href="./Lab1_listUser.html" class="active">Labs</a></li>
-        </ul>
-    </div>
-
-
-
-    <div class="center">
-
-        <div class="sidebar">
-            <a class="active" href="./Lab1_listUser.html"><i class="fa fa-book" aria-hidden="true"></i> Lab 1</a>
-            <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Lab 2</a>
-            <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Lab 3</a>
-        </div>
+    <div class="container">
     
+        <div class="header">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Lab1_listUser.html" class="active">Labs</a></li>
+            </ul>
+        </div>
         <div class="content">
-            <!-- Nội dung trang web -->
-             <div class="title">
-                <a href="#" style="color:#5491c1">User List</a> <span>></span> <a href="#" style="color: #b2bcc1">Create User</a>
-             </div>
-
-
-            <div class="content_detail">
-                <div class="detail">
-                    <div class="username">
-                        <label for="username">Username:</label>
-                        <input type="text" name="username" id="username" placeholder="Enter your username">
-                    </div>
-            
-                    <div class="password">
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password" placeholder="Enter your password">
-                    </div>
-            
-                    <div class="email">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="Enter your email">
-                    </div>
-            
-                    <div class="fullname">
-                        <label for="fullname">Fullname:</label>
-                        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
-                    </div>
-            
-                    <div class="role">
-                        <label for="role">Role:</label>
-                        <select name="role" id="role">
-                            <option value="default">--Choose your role--</option>
-                            <option value="user">User</option>
-                            <option value="admin">Admin</option>
-                        </select>
-                    </div>
-            
-            
-                    <div class="buttons">
-                        <button>Create Account</button>
-                        <button><a href="./Lab1_listUser.html" style="color:white;">Cancel</a></button>
+            <div class="tab">
+                <button class="tablinks active">Lab 1</button>
+                <button class="tablinks">Lab 2</button>
+                <button class="tablinks">Lab 3</button>
+            </div>
+    
+            <div class="tab_content" id="lab1">
+                <!-- Nội dung trang web -->
+                <div class="title">
+                    <a href="./Lab1_listUser.html" style="color:#5491c1">User List</a> <span>></span> <a href="#"
+                        style="color: #b2bcc1">Create User</a>
+                </div>
+    
+    
+                <div class="content_detail">
+                    <div class="detail lab1_user_detail">
+                        <div class="username">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your username">
+                        </div>
+    
+                        <div class="password">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+    
+                        <div class="email">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
+    
+                        <div class="fullname">
+                            <label for="fullname">Fullname:</label>
+                            <input type="text" name="fullname" id="fullname" placeholder="Enter your full name">
+                        </div>
+    
+                        <div class="role">
+                            <label for="role">Role:</label>
+                            <select name="role" id="role">
+                                <option value="default">--Choose your role--</option>
+                                <option value="user">User</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                        </div>
+    
+    
+                        <div class="buttons">
+                            <a href="#" class="button">Create Account</a>
+                            <a href="./Lab1_listUser.html" class="button">Cancel</a>
+                        </div>
                     </div>
                 </div>
             </div>
-             
-        </div>        
+        </div>
     </div>
 </body>
 </html>

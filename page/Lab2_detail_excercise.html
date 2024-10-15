@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Labs</title>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Lab1_listUser.html" class="active">Labs</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="tab">
+                <button class="tablinks">Lab 1</button>
+                <button class="tablinks active" onclick="openLab(event, 'lab2')">Lab 2</button>
+                <button class="tablinks">Lab 3</button>
+            </div>
+            
+            <div class="tab_content" id="lab2">
+            
+                <div class="title">
+                    <a href="#" style="color:#5491c1" onclick="returnLab(event,'lab2')">Login</a><span>></span> 
+                    <a href="#" style="color: #b2bcc1">Home page</a> <span>></span>
+                    <a href="#" style="color: #b2bcc1">Detail</a>
+                </div>
+                <div class="content_detail">
+                    <div class="detail lab2_detail_excercise">
+
+                        <div class="content">
+                            <header>
+                                <h1>Bài tập Java: Bài 1</h1>
+            
+                                <div class="language">
+                                    <label for="language">Ngôn ngữ:</label>
+                                    <select name="language" id="chooseLanguage">
+                                        <option value="default">VN</option>
+                                        <option value="user">English</option>
+                                        <option value="admin">Japanese</option>
+                                    </select>
+            
+                                </div>
+                            </header>
+            
+                            <div class="main_content de_excercise" style="flex-direction: column;">
+                                <div class="detail_Exercise" style="height: fit-content;">
+                                    <p><strong>Đề bài:</strong></p>
+                                    <ul>
+                                        <li>Viết chương trình Java mà khi chạy, màn hình console sẽ cho phép ta nhập vào một số nguyên, in ra màn hình "Đây là số nguyên dương"</li>
+                                        <li>Nếu số vừa nhập vào là một số lớn hơn hoặc bằng 0, ngược lại in ra "Đây là số nguyên âm".</li>
+                                    </ul>
+            
+                                    <div class="time_exercise">
+                                        <span><strong>Thời gian:</strong></span>
+                                        <span>49:50</span>
+                                    </div>
+                                </div>
+            
+                                <div class="do_exer_area">
+                                    <textarea rows="4" cols="50">
+public class BaiTapJavaCoBan1 {
+            
+    public void soNguyenDuong(int number) {
+        if(number &gt;=0) {
+            System.out.println("Đây&nbsp;là&nbsp;một&nbsp;số&nbsp;nguyên&nbsp;dương");
+        }else {
+            System.out.println("Đây là số nguyên âm");
+        }
+    }
+    public static void main(String[] args) {
+        BaiTapJavaCoBan1 btjava1 = new BaiTapJavaCoBan1();
+        btjava1.soNguyenDuong(1);
+        btjava1.soNguyenDuong(-1);
+    }
+}</textarea>
+            
+                                    <button class="delete_button">Xoá</button>
+                                </div>
+            
+                                <div class="do_exer_buttons">
+                                    <a href="./Lab2_homepage.html">Trở lại</a>
+                                    <a href="#">Chạy</a>
+                                    <a href="./Lab2_submit_excercise.html">Nộp bài</a>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content" id="lab3" style="display: none;"></div>
+        </div>
+        
+        
+    </div>
+
+
+    <script src="../js/myScript.js"></script>
+</body>
+</html>
+
+
