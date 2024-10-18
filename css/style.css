@@ -512,36 +512,36 @@ a{
 }
 
 /**NAVIGATION BAR**/
-.navigation_bar {
+.lab2_homePage .navigation_bar {
     border-right: 1px solid #d8cbcb;
     width: 23%;
 }
 
-.navigation_bar ul {
+.lab2_homePage .navigation_bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     /* background-color: #a64bf4; */
 }
 
-.navigation_bar li a {
+.lab2_homePage .navigation_bar li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.navigation_bar li a.active {
+.lab2_homePage .navigation_bar li a.active {
     background-color: #a64bf4;
     color: white;
 }
 
-.navigation_bar li a:hover:not(.active) {
+.lab2_homePage .navigation_bar li a:hover:not(.active) {
     background-color: #d8cbcb;
     color: white;
 }
 
-li.submenu {
+.lab2_homePage li.submenu {
     text-align: center;
     margin: 8px;
     border-bottom: 1px solid #d8cbcb;
@@ -759,10 +759,10 @@ li.submenu {
     display: grid;
     column-gap: 50px;
     row-gap: 50px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     /* background-color: #2196F3; */
     padding: 10px;
-    width: 80%;
+    width: 60%;
     margin: 0px auto;
 }
 .lab3_menu_page .content .grid_item{
@@ -772,13 +772,18 @@ li.submenu {
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.lab3_menu_page .content .grid_item h4{
-    margin-top:8px;
+    display: inline-flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    height: 130px;
 }
 .lab3_menu_page .content .grid_item .view_button{
-    margin:50px 0px 31px 0px;
+    margin-left: 10px;
+}
+
+.lab3_menu_page .content .grid_item .view_button h4{
+    margin-bottom: 17px;
 }
 
 .lab3_menu_page .content .grid_item .view_button a{
@@ -788,6 +793,126 @@ li.submenu {
     color: #0070ff;
 }
 
-.lab3_menu_page .content .grid_item .view_button a:active{
-    opacity: 0.6;
+/**LESSON DETAIL*/
+
+.container .lesson_detail_content{
+    height: 680px;
+    border: 1px solid black;
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
 }
+
+.container .lesson_detail_content header{
+    position: relative;
+    text-align: center;
+    margin: 12px 0px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.container .lesson_detail_content header a.returnList {
+    position: absolute;
+    top: 0;
+    left: 3%;
+}
+
+.container .lesson_detail_content .lesson_detail{
+    display: flex;
+    flex-direction: row;
+    height: 92%;
+    border-top: 1px solid #d8cbcb;
+}
+
+.container .lesson_detail_content .menu_left{
+    width:25%;
+}
+
+.container .lesson_detail_content .content{
+    width:75%;
+}
+
+.lesson_detail_content .menu_left h3 {
+    margin: 12px;
+    font-size: 23px;
+}
+/**NAVIGATION BAR**/
+.lesson_detail_content .navigation_bar {
+    border-right: 1px solid #d8cbcb;
+    font-weight: bold;
+    height: 100%;
+}
+
+.lesson_detail_content .navigation_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: #a64bf4; */
+}
+
+.lesson_detail_content .navigation_bar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #d8cbcb;
+}
+
+.lesson_detail_content .navigation_bar li a.active {
+    /* background-color: #a64bf4; */
+    color: #a64bf4;
+}
+
+.lesson_detail_content .navigation_bar li a:hover:not(.active) {
+    /* background-color: #d8cbcb; */
+    color: #a64bf4;
+}
+
+.lesson_detail_content li.submenu {
+    padding-left: 18px;
+    margin: 8px;
+    border-bottom: 1px solid #d8cbcb;
+}
+
+
+.lesson_detail_content .content {
+    padding: 0px 20px;
+    background-color: white;
+    overflow-y: auto;
+    height: 96%;
+    /* padding-bottom: 10px; */
+}
+
+/**Cái này để ẩn thanh scrollbar nhưng vẫn cuộn được**/
+.content::-webkit-scrollbar{
+    width: 0 !important;
+    display: none; 
+}
+
+
+.content .section {
+    /* height: 600px; */
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    /* padding: 20px; */
+}
+
+.content .section .section_sub{
+    margin-bottom: 40px;
+} 
+
+.content .section h2{
+    margin:15px 0px;
+} 
+
+.content .section p{
+    margin:15px 0px;
+} 
+
+.content .section ul{
+    padding-left: 30px;
+} 
+
+.content .section ul li{
+    margin-bottom: 12px;
+} 
