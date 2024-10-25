@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding:0;
+}
 body{
     margin:0;
     /* width:100vw;
@@ -916,3 +920,209 @@ a{
 .content .section ul li{
     margin-bottom: 12px;
 } 
+
+
+
+/**LAB 4**/
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.navbar .left-menu a:hover, .navbar .right-menu a:hover {
+    color: #ddd;
+}
+.container .navbar .container .navbar .left-menu {
+    display: flex;
+    align-items: center;
+}
+.container .navbar .left-menu a:first-child {
+    margin-right: 60px;
+    font-weight: bold;
+}
+.container .navbar .right-menu {
+    display: flex;
+    align-items: center;
+}
+.container .navbar .right-menu .progress {
+    margin-right: 20px;
+}
+.container .navbar .right-menu button {
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border:1px solid white
+}
+.container .navbar .right-menu button:hover {
+    background-color: #555;
+}
+.container .navbar .ellipsis {
+    margin-left: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 4px 14px;
+    border:1px solid white
+}
+
+
+
+.container .lab4_index3 .lab4_index3_course-content_info .tab{
+    /* margin-top:4px; */
+    border:none;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+
+.container .lab4_index3 .lab4_index3_course-content_info .tab button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #6e7377;
+    font-weight: bold;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .tab button.active{
+    color: black;
+    border-bottom:1px solid black;
+}
+
+
+.container .lab4_index3{
+    display:flex;
+    /* height:100% */
+}
+
+.container .lab4_index3 .lab4_index3_course-content{
+    width:25%;
+    /* height:100%; */
+    border-left:1px solid black;
+}
+
+.container .lab4_index3 .lab4_index3_course-content .title{
+    border-bottom: 1px solid black;
+    padding: 12px;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.container .lab4_index3 .lab4_index3_course-content .title i{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+}
+
+.container .lab4_index3 .lab4_index3_course-content button.button_title {
+    width: 100%;
+    padding: 13px;
+    text-align: left;
+}
+
+.container .lab4_index3 .lab4_index3_course-content button.button_title h4{
+    margin-bottom: 6px;
+}
+
+.container .lab4_index3 .lab4_index3_course-content li {
+    list-style-type: none;
+}
+
+.container .lab4_index3 .lab4_index3_course-content .ul_detail{
+    display:none;
+}
+.container .lab4_index3 .lab4_index3_course-content .li_detail{
+    border: 1px solid;
+    padding: 13px;
+    color:#313335;
+    /* text-align: center; */
+}
+.container .lab4_index3 .lab4_index3_course-content .li_detail:hover{
+    background-color:#d1d7dd;
+}
+
+.container .lab4_index3 .lab4_index3_course-content .li_detail.active{
+    background-color:#d1d7dd;
+}
+.container .lab4_index3 .lab4_index3_course-content .li_detail .other_detail{
+    font-size: 12px; 
+    color:#707478;
+    margin: 4px 22px;
+    
+}
+
+.container .lab4_index3 .lab4_index3_course-content .li_detail .resourses{
+    font-size: 14px;
+    float: right;
+    border: 1px solid #707478;
+    padding: 4px 11px;   
+}
+
+@media screen and (max-width: 920px) {
+    .container .lab4_index3 .lab4_index3_course-content .li_detail .other_detail{
+        font-size: 6px; 
+    }
+    .container .lab4_index3 .lab4_index3_course-content .li_detail .resourses{
+        font-size: 8px;
+        padding: 4px 11px;  
+        /* Hiển thị 2 thẻ khi màn hình nhỏ */
+    }
+}
+/**COURSE-CONTENT_INFO**/
+.container .lab4_index3 .lab4_index3_course-content_info{
+    width:75%;
+    height:100%;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .title{ 
+    font-size: 24px;
+    margin-bottom:25px;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .course_body{
+    margin: 20px 30px;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .course_info .course_info1{
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .course_info .course_info1 div{
+    margin-right: 30px;
+}
+
+.container .lab4_index3 .lab4_index3_course-content_info .what_learn{
+    border:1px solid #ccc;
+    padding:20px;
+    margin-top: 60px;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .what_learn .what_learn_info{
+    display:flex;
+    width:100%;
+}
+
+.container .lab4_index3 .lab4_index3_course-content_info .what_learn .what_learn_info .left{
+    width:50%;
+    color:#68686a;
+}
+.container .lab4_index3 .lab4_index3_course-content_info .what_learn .what_learn_info .right{
+    width:50%;
+    color:#68686a;
+}
+
+.container .lab4_index3 .lab4_index3_course-content_info .what_learn .what_learn_info li{
+    list-style-type: none;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}

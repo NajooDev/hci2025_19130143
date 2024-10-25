@@ -21,3 +21,21 @@ function returnLab(event,lab_number){
     // tablinks = document.getElementsByClassName("tablinks");
     document.getElementById(lab_number).style.display = "block";
 }
+
+
+function openSubMenu(evt, number){
+
+  let current = evt.currentTarget;
+  let menu = document.getElementsByClassName("ul_detail");
+
+
+  if(current.classList.contains("active")){
+      current.classList.remove("active");
+      // console.log(current.className);
+      menu[number].style.display = "none";
+  }else{
+      current.classList.add("active");
+      menu[number].style.display = "block";
+  }
+  // console.log(current);
+}
