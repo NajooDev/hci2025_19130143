@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="header bg-dark text-white p-4 pb-1">
+    <h1 class="mb-4">My learning</h1>
+    <div class="d-flex align-items-center mb-2">
+      <p class="fw-bold m-0 me-1">87hr 36min</p>
+      <p class="m-0 me-1">watched</p>
+      <i class="fa-solid fa-circle-info p-0 mx-2"></i>
+      <a href="#" class="text-white fw-bold" style="text-decoration: none;">View all activity</a>
+    </div>
+    <nav>
+      <div class="nav nav-tabs border-0 row" id="nav-tab" role="tablist">
+        <button class="nav-link fw-bold nav-link-bg-inherit-white-text col-sm-auto col-6 active" id="nav-all-courses-tab"
+          data-bs-toggle="tab" data-bs-target="#nav-all-courses" type="button" role="tab"
+          aria-controls="nav-all-courses" aria-selected="true">All courses</button>
+        <button class="nav-link nav-link-bg-inherit-white-text fw-bold col-sm-auto col-6 " id="nav-learning-paths-tab"
+          data-bs-toggle="tab" data-bs-target="#nav-learning-paths" type="button" role="tab"
+          aria-controls="nav-learning-paths" aria-selected="false">Learning paths</button>
+        <button class="nav-link nav-link-bg-inherit-white-text fw-bold col-sm-auto col-6 " id="nav-certifications-tab"
+          data-bs-toggle="tab" data-bs-target="#nav-certifications" type="button" role="tab" aria-controls="nav-certifications"
+          aria-selected="false">Certifications</button>
+        <button class="nav-link nav-link-bg-inherit-white-text fw-bold col-sm-auto col-6 " id="nav-archived-tab"
+          data-bs-toggle="tab" data-bs-target="#nav-archived" type="button" role="tab" aria-controls="nav-archived"
+          aria-selected="false">Archived</button>
+        <button class="nav-link nav-link-bg-inherit-white-text fw-bold col-sm-auto col-6 " id="nav-learning-tools-tab"
+          data-bs-toggle="tab" data-bs-target="#nav-learning-tools" type="button" role="tab" aria-controls="nav-learning-tools"
+          aria-selected="false">Learning tools</button>
+      </div>
+    </nav>
+  </div>
+  <div class="tab-content p-4" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-all-courses" role="tabpanel" aria-labelledby="nav-all-courses-tab">
+      <div class="sort-filter-search row">
+        <div class="sort col-sm-3">
+          <p>Sort by</p>
+          <select class="form-select form-select-lg mb-3 border-dark rounded-0" aria-label=".form-select-lg example">
+            <option selected>Recently Accessed</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+
+        <div class="filter col-sm-5">
+          <p>Sort by</p>
+          <div class="d-flex">
+            <select class="form-select form-select-lg border-dark rounded-0" aria-label=".form-select-lg example">
+              <option selected>Categories</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select form-select-lg border-dark rounded-0 mx-3" aria-label=".form-select-lg example">
+              <option selected>Progress</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select form-select-lg border-dark rounded-0" aria-label=".form-select-lg example">
+              <option selected>Instructor</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="me-2">
+              <button class="btn text-secondary fw-bold">Reset</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-1"></div>
+        <div class="search  col-sm-3">
+          <p class="text-white">Search</p>
+          <div class="input-group">
+            <input type="search rounded-0 border border-primary" class="form-control border_black" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <span class="input-group-text border-0 bg-dark rounded-0" id="search-addon">
+              <i class="fas fa-search text-white"></i>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row mt-3">
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img src="../img/grid-item-img1.png" alt="" class="img-fluid">
+          <h5>FPT_ISMS Refresh Trainning S2 2024 (Vietnamese)</h5>
+          <p class="text-secondary">FSOFT Content Development</p>
+          <div class="progress mb-1" style="height: 2.5px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <span>100% complete</span>
+            </div>
+            <div class="col-6 text-end">
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <span><i class="fa-regular fa-star rating_star_red"></i></span>
+                <p>Leave a rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade row p-4" id="nav-learning-paths" role="tabpanel" aria-labelledby="nav-learning-paths-tab">
+      <div class="learning_path_detail row">
+        <div class="col-sm-6">
+          <div class="border border-secondary row pt-2 m-0 mt-3">
+            <img src="../img/fpt_logo.jpg" alt="" class="col-sm-1 col-2 p-0">
+            <div class="col-sm-10 col-9">
+              <p class="fw-bold text-secondary mb-1">Learning path</p>
+              <h5>Induction Trainning_GAAFOFY (VI)</h5>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical col-1 text-end pe-3"></i>
+
+            <p class="text-secondary ms-5 ps-4 mt-5">1 of 6 items complete</p>
+
+            <div class="progress p-0 rounded-0" style="height: 9px;">
+              <div class="progress-bar" role="progressbar" style="width: 14%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-6">
+          <div class="border border-secondary row pt-2 m-0 mt-3">
+            <img src="../img/fpt_logo.jpg" alt="" class="col-sm-1 col-2 p-0">
+            <div class="col-sm-10 col-9">
+              <p class="fw-bold text-secondary mb-1">Learning path</p>
+              <h5>Induction Trainning for BO_IT_Mandatory (VI)</h5>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical col-1 text-end pe-3"></i>
+
+            <p class="text-secondary ms-5 ps-4 mt-5">9 of 9 items complete</p>
+
+            <div class="progress p-0 rounded-0" style="height: 9px;">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- other tab -->
+    <div class="tab-pane fade" id="nav-certifications" role="tabpanel" aria-labelledby="nav-certifications-tab">Certification</div>
+    <div class="tab-pane fade" id="nav-archived" role="tabpanel" aria-labelledby="nav-archived-tab">Archived</div>
+    <div class="tab-pane fade" id="nav-learning-tools" role="tabpanel" aria-labelledby="nav-learning-tools-tab">Learning tools</div>
+  </div>
+
+
+
+  
+
+
+</body>
+
+</html>
