@@ -34,7 +34,14 @@ body{
     box-sizing: border-box;
 }
 
-/**menu bar**/
+.home_title{
+    animation: showtitle 3s ;
+}
+@keyframes showtitle {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+/*menu bar*/
 .nav-bar-color {
     background-color: #2892ee !important;
 }
@@ -63,7 +70,7 @@ body{
 
 .bg-image {
     /* The image used */
-    background-image: url("../img/home_background3.png");
+    background-image: url("../img/office-desk-background.jpg");
 
     /* Add the blur effect */
     filter: blur(8px);
@@ -102,12 +109,43 @@ body{
     margin:0;
 }
 
+/**ABOUT**/
+.skill_detail{
+    margin-bottom:1em;
+}
+
+.process-bar-animations{
+    background-color: #2892ee;
+    animation: progressBar 1s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
 
 /**Lab**/
 .bg-gray{
     background-color: #edf4f7;
 }
+
+.ratio_custome{
+    --bs-aspect-ratio: 56.25%;
+}
+
+@media screen and (max-width: 500px) {
+    .ratio_custome{
+        --bs-aspect-ratio: 156.25%;
+    }
+}
+
+
 /**lab 1**/
+.nav-project .nav-link.active{
+    background-color: #2892ee !important;
+}
+
 
 /**create user**/
 .input-border-bottom{
