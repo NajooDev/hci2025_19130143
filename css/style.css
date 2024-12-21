@@ -134,12 +134,15 @@ body{
     --bs-aspect-ratio: 56.25%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .ratio_custome{
         --bs-aspect-ratio: 156.25%;
     }
 }
 
+.img_requirement{
+    aspect-ratio: 4/2;
+}
 
 /**lab 1**/
 .nav-project .nav-link.active{

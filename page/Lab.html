@@ -146,11 +146,20 @@
                                 <h2>Design</h2>
 
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab1_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab1_1.jpg" download="../img/Lab1_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab1_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab1_1.jpg" download="../img/Lab1_1.jpg">Download</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab1_3.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab1_1.jpg" download="../img/Lab1_1.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
@@ -176,100 +185,145 @@
                 <div class="bg-white nav-project py-2">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-lab2-requirement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab2-requirement" type="button" role="tab" aria-controls="pills-lab2-requirement" aria-selected="true"><i class="fa-solid fa-list-ol me-2"></i>Requirement</button>
+                            <button class="nav-link active" id="pills-lab2-requirement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab2-requirement" type="button" role="tab"
+                                aria-controls="pills-lab2-requirement" aria-selected="true"><i
+                                    class="fa-solid fa-list-ol me-2"></i>Requirement</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab2-design-tab" data-bs-toggle="pill" data-bs-target="#pills-lab2-design" type="button" role="tab" aria-controls="pills-lab2-design" aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
+                            <button class="nav-link" id="pills-lab2-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab2-design" type="button" role="tab" aria-controls="pills-lab2-design"
+                                aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab2-implement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab2-implement" type="button" role="tab" aria-controls="pills-lab2-implement" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
+                            <button class="nav-link" id="pills-lab2-implement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab2-implement" type="button" role="tab" aria-controls="pills-lab2-implement"
+                                aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
                         </li>
                     </ul>
                 </div>
                 <div class="container my-5">
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-lab2-requirement" role="tabpanel" aria-labelledby="pills-lab2-requirement-tab">
+                        <div class="tab-pane fade show active" id="pills-lab2-requirement" role="tabpanel"
+                            aria-labelledby="pills-lab2-requirement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Requirement</h2>
-                                <span>Chào các em,<br>Cô gửi yêu cầu lab2, thiết kế giao diện cho chức năng user như sau. Tới 11h59 phút ngày hôm
-                                    nay, các em nộp lại đường link github dạng: XXX.github.com/lab2.html<br><br>User Interface Design Requirements:
+                                <span>Chào các em,<br><br>Cô gửi bài tập, các em làm xong, bỏ vào thư mục mang tên MaSV_HoTen rồi
+                                    nén .zip gửi lại cho cô nhé.<br>
                                     <ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Username”</li>
-                                        <li>: Must be unique, maximum 255 characters.</li>
-                                        <li>: A text box with a hint (placeholder) like "Enter your username."</li>
+                                        <li>: Students should authenticate before accessing the system.</li>
+                                        <li>:</li>
+                                        <li>Username/Email</li>
+                                        <li>Password</li>
                                     </ul>:<ul>
-                                        <li>: Password Input (Single-line with hidden text)</li>
-                                        <li>: “Password”</li>
-                                        <li>: Minimum password strength check, maximum 255 characters.</li>
-                                        <li>: A text box that hides the text input, with a “Show/Hide” toggle.</li>
+                                        <li>Login button</li>
+                                        <li>Forgot Password link</li>
+                                    </ul>: Simple, clean, and secure login screen.<ul>
+                                        <li>: After login, students should land on a dashboard that displays available exercises to
+                                            choose from.</li>
+                                        <li>:</li>
+                                        <li>: Display exercises grouped by programming language (C, Python, Java).</li>
+                                        <li>:</li>
+                                        <li>Exercise title</li>
+                                        <li>Short description</li>
+                                        <li>Difficulty level (Easy/Medium/Hard)</li>
+                                        <li>Time limit (if any)</li>
+                                        <li>Points or grades attached (optional)</li>
+                                    </ul>: Allow students to filter exercises by programming language.: To search for exercises
+                                    based on keywords.: Indicate whether an exercise has been completed, in progress, or not
+                                    started.:<ul>
+                                        <li>Select an exercise</li>
+                                        <li>View exercise details</li>
+                                        <li>: Once an exercise is selected, students are taken to a coding environment to implement
+                                            their solution.</li>
+                                        <li>:</li>
+                                        <li>: Display the exercise title and description at the top.</li>
+                                        <li>:</li>
+                                        <li>Syntax highlighting for C, Python, Java</li>
+                                        <li>Line numbers and auto-complete</li>
+                                        <li>Language switcher (to select the language)</li>
+                                        <li>Pre-loaded template (based on the selected language)</li>
+                                        <li>Instructions and constraints provided for the exercise</li>
                                     </ul>:<ul>
-                                        <li>: Email Input</li>
-                                        <li>: “Email Address”</li>
-                                        <li>: Must be a valid email format and unique, maximum 255 characters.</li>
-                                        <li>: A text box with a placeholder like "Enter your email."</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Full Name” (optional)</li>
-                                        <li>: A regular text box, with a placeholder like "Enter your full name."</li>
+                                        <li>Display predefined test cases with expected input/output</li>
+                                        <li>Allow students to create and run their own test cases (optional)</li>
                                     </ul>:<ul>
-                                        <li>: Dropdown / Select Menu</li>
-                                        <li>: “Role”</li>
-                                        <li>: Required field.</li>
-                                        <li>: A dropdown menu listing the available roles fetched from the system (e.g., Admin, User, etc.).</li>
+                                        <li>Run Code button to compile and run the code</li>
+                                        <li>Clear Code button to reset the editor</li>
+                                        <li>Submission button to submit the final solution for grading</li>
                                     </ul>:<ul>
-                                        <li>: File Upload or URL Input (for image URL)</li>
-                                        <li>: “Profile Picture”</li>
-                                        <li>: An upload button or URL field that allows users to upload or enter a URL for their profile picture,
-                                            with a preview box for the image.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Account Created At”</li>
-                                        <li>: Automatically populated field, no input needed. Display this as a timestamp or date.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Last Updated At”</li>
-                                        <li>: Automatically updated field when the user’s information is edited. Display this as a timestamp or
-                                            date.</li>
+                                        <li>Run the code (compile + execute)</li>
+                                        <li>Submit the code</li>
+                                        <li>: After submission, students should see the results of their submission.</li>
+                                        <li>:</li>
+                                        <li>:</li>
+                                        <li>Status (Success/Failed/Compilation Error/Time Limit Exceeded)</li>
+                                        <li>Output: Show actual output versus expected output for each test case.</li>
                                     </ul>:<ul>
-                                        <li>: Button</li>
-                                        <li>: “Create Account” / “Save Changes” (depending on context)</li>
-                                        <li>: A primary action button that submits the form. Ensure it's disabled until all required fields are
-                                            validated.</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Button</li>
-                                        <li>: “Cancel”</li>
-                                        <li>: A secondary action button that cancels the form submission and returns the user to the previous page.
+                                        <li>List all test cases with:</li>
+                                        <li>Input</li>
+                                        <li>Expected output</li>
+                                        <li>Actual output</li>
+                                        <li>Status (Passed/Failed)</li>
+                                    </ul>:<ul>
+                                        <li>Show score based on test cases passed</li>
+                                        <li>If there are multiple test cases, show how many passed</li>
+                                    </ul>: Display performance metrics like time taken and memory used (if applicable).:<ul>
+                                        <li>Try again button to return to the code editor for improvements</li>
+                                        <li>Return to dashboard button</li>
+                                        <li>: Show rankings based on student performance (optional, for competitive environments).
                                         </li>
-                                    </ul>Additional Considerations:<ul>
-                                        <li>: Use inline validation messages under each input field for errors like "Username is already taken" or
-                                            "Invalid email format."</li>
-                                        <li>: Ensure the form is responsive, working well on both desktop and mobile.</li>
-                                    </ul></span>
+                                        <li>: Allow students to leave feedback on exercises or ask for help.</li>
+                                        <li>: Provide a hint button that can be used a limited number of times.</li>
+                                        <li>: Allow students to save their progress and return later to complete the exercise.</li>
+                                        <li>Code execution should happen in isolated environments (containers or sandboxes) for
+                                            security reasons.</li>
+                                        <li>Limit execution time to prevent infinite loops.</li>
+                                        <li>Store previous attempts so students can review their submissions.</li>
+                                        <li>: Each screen should have a simple design with minimal distractions.</li>
+                                        <li>: Ensure the system is mobile-friendly so students can work from any device.</li>
+                                        <li>: Clearly communicate syntax and runtime errors to students.</li>
+                                    </ul>
+                                </span>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-lab2-design" role="tabpanel" aria-labelledby="pills-lab2-design-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Design</h2>
-
+            
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab2_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab2_1.jpg" download="../img/Lab2_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab2_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab2_2.jpg" download="../img/Lab2_2.jpg">Download</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab2_3.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab2_3.jpg" download="../img/Lab2_3.jpg">Download</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab2_4.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab2_4.jpg" download="../img/Lab2_4.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-lab2-implement" role="tabpanel" aria-labelledby="pills-lab2-implement-tab">
+                        <div class="tab-pane fade" id="pills-lab2-implement" role="tabpanel"
+                            aria-labelledby="pills-lab2-implement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <div class="ratio ratio_custome">
                                     <iframe src="./Lab2_login.html" title="Lab 1" allowfullscreen></iframe>
                                 </div>
                                 <div class="button text-center pt-4 border-top">
                                     <a href="./Lab2_login.html" class="btn bg-blue-color">Go to page</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -281,100 +335,72 @@
                 <div class="bg-white nav-project py-2">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-lab3-requirement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab3-requirement" type="button" role="tab" aria-controls="pills-lab3-requirement" aria-selected="true"><i class="fa-solid fa-list-ol me-2"></i>Requirement</button>
+                            <button class="nav-link active" id="pills-lab3-requirement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab3-requirement" type="button" role="tab"
+                                aria-controls="pills-lab3-requirement" aria-selected="true"><i
+                                    class="fa-solid fa-list-ol me-2"></i>Requirement</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab3-design-tab" data-bs-toggle="pill" data-bs-target="#pills-lab3-design" type="button" role="tab" aria-controls="pills-lab3-design" aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
+                            <button class="nav-link" id="pills-lab3-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab3-design" type="button" role="tab" aria-controls="pills-lab3-design"
+                                aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab3-implement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab3-implement" type="button" role="tab" aria-controls="pills-lab3-implement" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
+                            <button class="nav-link" id="pills-lab3-implement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab3-implement" type="button" role="tab" aria-controls="pills-lab3-implement"
+                                aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
                         </li>
                     </ul>
                 </div>
                 <div class="container my-5">
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-lab3-requirement" role="tabpanel" aria-labelledby="pills-lab3-requirement-tab">
+                        <div class="tab-pane fade show active" id="pills-lab3-requirement" role="tabpanel"
+                            aria-labelledby="pills-lab3-requirement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Requirement</h2>
-                                <span>Chào các em,<br>Cô gửi yêu cầu lab3, thiết kế giao diện cho chức năng user như sau. Tới 11h59 phút ngày hôm
-                                    nay, các em nộp lại đường link github dạng: XXX.github.com/lab3.html<br><br>User Interface Design Requirements:
-                                    <ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Username”</li>
-                                        <li>: Must be unique, maximum 255 characters.</li>
-                                        <li>: A text box with a hint (placeholder) like "Enter your username."</li>
-                                    </ul>:<ul>
-                                        <li>: Password Input (Single-line with hidden text)</li>
-                                        <li>: “Password”</li>
-                                        <li>: Minimum password strength check, maximum 255 characters.</li>
-                                        <li>: A text box that hides the text input, with a “Show/Hide” toggle.</li>
-                                    </ul>:<ul>
-                                        <li>: Email Input</li>
-                                        <li>: “Email Address”</li>
-                                        <li>: Must be a valid email format and unique, maximum 255 characters.</li>
-                                        <li>: A text box with a placeholder like "Enter your email."</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Full Name” (optional)</li>
-                                        <li>: A regular text box, with a placeholder like "Enter your full name."</li>
-                                    </ul>:<ul>
-                                        <li>: Dropdown / Select Menu</li>
-                                        <li>: “Role”</li>
-                                        <li>: Required field.</li>
-                                        <li>: A dropdown menu listing the available roles fetched from the system (e.g., Admin, User, etc.).</li>
-                                    </ul>:<ul>
-                                        <li>: File Upload or URL Input (for image URL)</li>
-                                        <li>: “Profile Picture”</li>
-                                        <li>: An upload button or URL field that allows users to upload or enter a URL for their profile picture,
-                                            with a preview box for the image.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Account Created At”</li>
-                                        <li>: Automatically populated field, no input needed. Display this as a timestamp or date.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Last Updated At”</li>
-                                        <li>: Automatically updated field when the user’s information is edited. Display this as a timestamp or
-                                            date.</li>
-                                    </ul>:<ul>
-                                        <li>: Button</li>
-                                        <li>: “Create Account” / “Save Changes” (depending on context)</li>
-                                        <li>: A primary action button that submits the form. Ensure it's disabled until all required fields are
-                                            validated.</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Button</li>
-                                        <li>: “Cancel”</li>
-                                        <li>: A secondary action button that cancels the form submission and returns the user to the previous page.
-                                        </li>
-                                    </ul>Additional Considerations:<ul>
-                                        <li>: Use inline validation messages under each input field for errors like "Username is already taken" or
-                                            "Invalid email format."</li>
-                                        <li>: Ensure the form is responsive, working well on both desktop and mobile.</li>
-                                    </ul></span>
+                                <span>Chào các em,<br><br><br>Các bạn thể hiện cho cô chức năng: chia sẻ tài liệu học tập cho sinh
+                                    viên theo môn học. Mỗi môn học có thể chia sẻ các tài liệu như Bài giảng / Bài tập / Tài liệu
+                                    tham khảo.<br>Dưới đây là 1 ý tưởng cô đang làm, các bạn tham khảo và làm khác đi
+                                    nhé.<br><br>Các bạn bỏ toàn bộ file các bạn làm vào thư mục MaSV_HoTen_lab3, nén lại thành file
+                                    .zip rồi gửi cho cô nhé</span>
+
+                                <div class="row mt-3">
+                                    <div class="col-sm-6">
+                                        <img src="../img/Screenshot 2024-10-12 at 07.48.12.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="../img/Screenshot 2024-10-12 at 07.47.54.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-lab3-design" role="tabpanel" aria-labelledby="pills-lab3-design-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Design</h2>
-
+            
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab3_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab3_1.jpg" download="../img/Lab3_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab3_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab3_2.jpg" download="../img/Lab3_2.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-lab3-implement" role="tabpanel" aria-labelledby="pills-lab3-implement-tab">
+                        <div class="tab-pane fade" id="pills-lab3-implement" role="tabpanel"
+                            aria-labelledby="pills-lab3-implement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <div class="ratio ratio_custome">
                                     <iframe src="./Lab3_cardMenu.html" title="Lab 1" allowfullscreen></iframe>
                                 </div>
                                 <div class="button text-center pt-4 border-top">
                                     <a href="./Lab3_cardMenu.html" class="btn bg-blue-color">Go to page</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -386,100 +412,76 @@
                 <div class="bg-white nav-project py-2">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-lab4-requirement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab4-requirement" type="button" role="tab" aria-controls="pills-lab4-requirement" aria-selected="true"><i class="fa-solid fa-list-ol me-2"></i>Requirement</button>
+                            <button class="nav-link active" id="pills-lab4-requirement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab4-requirement" type="button" role="tab"
+                                aria-controls="pills-lab4-requirement" aria-selected="true"><i
+                                    class="fa-solid fa-list-ol me-2"></i>Requirement</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab4-design-tab" data-bs-toggle="pill" data-bs-target="#pills-lab4-design" type="button" role="tab" aria-controls="pills-lab4-design" aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
+                            <button class="nav-link" id="pills-lab4-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab4-design" type="button" role="tab" aria-controls="pills-lab4-design"
+                                aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab4-implement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab4-implement" type="button" role="tab" aria-controls="pills-lab4-implement" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
+                            <button class="nav-link" id="pills-lab4-implement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab4-implement" type="button" role="tab" aria-controls="pills-lab4-implement"
+                                aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
                         </li>
                     </ul>
                 </div>
                 <div class="container my-5">
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-lab4-requirement" role="tabpanel" aria-labelledby="pills-lab4-requirement-tab">
+                        <div class="tab-pane fade show active" id="pills-lab4-requirement" role="tabpanel"
+                            aria-labelledby="pills-lab4-requirement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Requirement</h2>
-                                <span>Chào các em,<br>Cô gửi yêu cầu lab4, thiết kế giao diện cho chức năng user như sau. Tới 11h59 phút ngày hôm
-                                    nay, các em nộp lại đường link github dạng: XXX.github.com/lab4.html<br><br>User Interface Design Requirements:
-                                    <ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Username”</li>
-                                        <li>: Must be unique, maximum 255 characters.</li>
-                                        <li>: A text box with a hint (placeholder) like "Enter your username."</li>
-                                    </ul>:<ul>
-                                        <li>: Password Input (Single-line with hidden text)</li>
-                                        <li>: “Password”</li>
-                                        <li>: Minimum password strength check, maximum 255 characters.</li>
-                                        <li>: A text box that hides the text input, with a “Show/Hide” toggle.</li>
-                                    </ul>:<ul>
-                                        <li>: Email Input</li>
-                                        <li>: “Email Address”</li>
-                                        <li>: Must be a valid email format and unique, maximum 255 characters.</li>
-                                        <li>: A text box with a placeholder like "Enter your email."</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Full Name” (optional)</li>
-                                        <li>: A regular text box, with a placeholder like "Enter your full name."</li>
-                                    </ul>:<ul>
-                                        <li>: Dropdown / Select Menu</li>
-                                        <li>: “Role”</li>
-                                        <li>: Required field.</li>
-                                        <li>: A dropdown menu listing the available roles fetched from the system (e.g., Admin, User, etc.).</li>
-                                    </ul>:<ul>
-                                        <li>: File Upload or URL Input (for image URL)</li>
-                                        <li>: “Profile Picture”</li>
-                                        <li>: An upload button or URL field that allows users to upload or enter a URL for their profile picture,
-                                            with a preview box for the image.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Account Created At”</li>
-                                        <li>: Automatically populated field, no input needed. Display this as a timestamp or date.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Last Updated At”</li>
-                                        <li>: Automatically updated field when the user’s information is edited. Display this as a timestamp or
-                                            date.</li>
-                                    </ul>:<ul>
-                                        <li>: Button</li>
-                                        <li>: “Create Account” / “Save Changes” (depending on context)</li>
-                                        <li>: A primary action button that submits the form. Ensure it's disabled until all required fields are
-                                            validated.</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Button</li>
-                                        <li>: “Cancel”</li>
-                                        <li>: A secondary action button that cancels the form submission and returns the user to the previous page.
-                                        </li>
-                                    </ul>Additional Considerations:<ul>
-                                        <li>: Use inline validation messages under each input field for errors like "Username is already taken" or
-                                            "Invalid email format."</li>
-                                        <li>: Ensure the form is responsive, working well on both desktop and mobile.</li>
-                                    </ul></span>
+                                <span>Cô gửi bài tập làm trên lớp của nhóm 1 (Req1 và Re2)<br>Các em
+                                    hoàn thành xong thì:<br>1. đẩy lên github&nbsp;<br>2. cho vào thư mục lab4_MaSV_HoTen rồi nén
+                                    lại thành file .zip (chỉ .zip) rồi nộp bài lên đây<br>3. nếu làm sai yêu cầu bị 0đ</span>
+                                
+                                <div class="row mt-3">
+                                    <div class="col-sm-6">
+                                        <img src="../img/Lab4_Req4.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="../img/Lab4_Req3.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="../img/Lab4_Req2.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div> 
+                                    <div class="col-sm-6">
+                                        <img src="../img/Lab4_Req1.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-lab4-design" role="tabpanel" aria-labelledby="pills-lab4-design-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Design</h2>
-
+            
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab4_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab4_1.jpg" download="../img/Lab4_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab4_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab4_2.jpg" download="../img/Lab4_2.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-lab4-implement" role="tabpanel" aria-labelledby="pills-lab4-implement-tab">
+                        <div class="tab-pane fade" id="pills-lab4-implement" role="tabpanel"
+                            aria-labelledby="pills-lab4-implement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <div class="ratio ratio_custome">
                                     <iframe src="./Lab4_home.html" title="Lab 1" allowfullscreen></iframe>
                                 </div>
                                 <div class="button text-center pt-4 border-top">
                                     <a href="./Lab4_home.html" class="btn bg-blue-color">Go to page</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -491,100 +493,71 @@
                 <div class="bg-white nav-project py-2">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-lab5-requirement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab5-requirement" type="button" role="tab" aria-controls="pills-lab5-requirement" aria-selected="true"><i class="fa-solid fa-list-ol me-2"></i>Requirement</button>
+                            <button class="nav-link active" id="pills-lab5-requirement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab5-requirement" type="button" role="tab"
+                                aria-controls="pills-lab5-requirement" aria-selected="true"><i
+                                    class="fa-solid fa-list-ol me-2"></i>Requirement</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab5-design-tab" data-bs-toggle="pill" data-bs-target="#pills-lab5-design" type="button" role="tab" aria-controls="pills-lab5-design" aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
+                            <button class="nav-link" id="pills-lab5-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab5-design" type="button" role="tab" aria-controls="pills-lab5-design"
+                                aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab5-implement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab5-implement" type="button" role="tab" aria-controls="pills-lab5-implement" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
+                            <button class="nav-link" id="pills-lab5-implement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab5-implement" type="button" role="tab" aria-controls="pills-lab5-implement"
+                                aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
                         </li>
                     </ul>
                 </div>
                 <div class="container my-5">
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-lab5-requirement" role="tabpanel" aria-labelledby="pills-lab5-requirement-tab">
+                        <div class="tab-pane fade show active" id="pills-lab5-requirement" role="tabpanel"
+                            aria-labelledby="pills-lab5-requirement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Requirement</h2>
-                                <span>Chào các em,<br>Cô gửi yêu cầu lab5, thiết kế giao diện cho chức năng user như sau. Tới 11h59 phút ngày hôm
-                                    nay, các em nộp lại đường link github dạng: XXX.github.com/lab5.html<br><br>User Interface Design Requirements:
-                                    <ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Username”</li>
-                                        <li>: Must be unique, maximum 255 characters.</li>
-                                        <li>: A text box with a hint (placeholder) like "Enter your username."</li>
-                                    </ul>:<ul>
-                                        <li>: Password Input (Single-line with hidden text)</li>
-                                        <li>: “Password”</li>
-                                        <li>: Minimum password strength check, maximum 255 characters.</li>
-                                        <li>: A text box that hides the text input, with a “Show/Hide” toggle.</li>
-                                    </ul>:<ul>
-                                        <li>: Email Input</li>
-                                        <li>: “Email Address”</li>
-                                        <li>: Must be a valid email format and unique, maximum 255 characters.</li>
-                                        <li>: A text box with a placeholder like "Enter your email."</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Full Name” (optional)</li>
-                                        <li>: A regular text box, with a placeholder like "Enter your full name."</li>
-                                    </ul>:<ul>
-                                        <li>: Dropdown / Select Menu</li>
-                                        <li>: “Role”</li>
-                                        <li>: Required field.</li>
-                                        <li>: A dropdown menu listing the available roles fetched from the system (e.g., Admin, User, etc.).</li>
-                                    </ul>:<ul>
-                                        <li>: File Upload or URL Input (for image URL)</li>
-                                        <li>: “Profile Picture”</li>
-                                        <li>: An upload button or URL field that allows users to upload or enter a URL for their profile picture,
-                                            with a preview box for the image.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Account Created At”</li>
-                                        <li>: Automatically populated field, no input needed. Display this as a timestamp or date.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Last Updated At”</li>
-                                        <li>: Automatically updated field when the user’s information is edited. Display this as a timestamp or
-                                            date.</li>
-                                    </ul>:<ul>
-                                        <li>: Button</li>
-                                        <li>: “Create Account” / “Save Changes” (depending on context)</li>
-                                        <li>: A primary action button that submits the form. Ensure it's disabled until all required fields are
-                                            validated.</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Button</li>
-                                        <li>: “Cancel”</li>
-                                        <li>: A secondary action button that cancels the form submission and returns the user to the previous page.
-                                        </li>
-                                    </ul>Additional Considerations:<ul>
-                                        <li>: Use inline validation messages under each input field for errors like "Username is already taken" or
-                                            "Invalid email format."</li>
-                                        <li>: Ensure the form is responsive, working well on both desktop and mobile.</li>
-                                    </ul></span>
+                                <span>Chào các em,<br>Cô gửi bài tập làm trên lớp:<br>&nbsp;- Nhóm 1: yêu cầu Req1 và Req2<br>- Nhóm
+                                    2: yêu cầu Req3, 4, 5<br>Các em hoàn thành xong thì:<br>1. đẩy lên github&nbsp;<br>2. cho vào
+                                    thư mục lab5_MaSV_HoTen rồi nén lại thành file .zip (chỉ .zip) rồi nộp bài lên đây<br>3. nếu làm
+                                    sai yêu cầu bị 0đ</span>
+
+                                    <div class="row mt-3">
+                                        <div class="col-sm-6">
+                                            <img src="../img/5.Req1.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement" style="width:100%">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <img src="../img/5.Req2.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-lab5-design" role="tabpanel" aria-labelledby="pills-lab5-design-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Design</h2>
-
+            
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab5_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab5_1.jpg" download="../img/Lab5_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab5_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab5_2.jpg" download="../img/Lab5_2.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-lab5-implement" role="tabpanel" aria-labelledby="pills-lab5-implement-tab">
+                        <div class="tab-pane fade" id="pills-lab5-implement" role="tabpanel"
+                            aria-labelledby="pills-lab5-implement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <div class="ratio ratio_custome">
                                     <iframe src="./Lab5_home.html" title="Lab 1" allowfullscreen></iframe>
                                 </div>
                                 <div class="button text-center pt-4 border-top">
                                     <a href="./Lab5_home.html" class="btn bg-blue-color">Go to page</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -596,100 +569,81 @@
                 <div class="bg-white nav-project py-2">
                     <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-lab6-requirement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab6-requirement" type="button" role="tab" aria-controls="pills-lab6-requirement" aria-selected="true"><i class="fa-solid fa-list-ol me-2"></i>Requirement</button>
+                            <button class="nav-link active" id="pills-lab6-requirement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab6-requirement" type="button" role="tab"
+                                aria-controls="pills-lab6-requirement" aria-selected="true"><i
+                                    class="fa-solid fa-list-ol me-2"></i>Requirement</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab6-design-tab" data-bs-toggle="pill" data-bs-target="#pills-lab6-design" type="button" role="tab" aria-controls="pills-lab6-design" aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
+                            <button class="nav-link" id="pills-lab6-design-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab6-design" type="button" role="tab" aria-controls="pills-lab6-design"
+                                aria-selected="false"><i class="fa-regular fa-image me-2"></i>Design</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-lab6-implement-tab" data-bs-toggle="pill" data-bs-target="#pills-lab6-implement" type="button" role="tab" aria-controls="pills-lab6-implement" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
+                            <button class="nav-link" id="pills-lab6-implement-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lab6-implement" type="button" role="tab" aria-controls="pills-lab6-implement"
+                                aria-selected="false"><i class="fa-solid fa-code me-2"></i>Implement</button>
                         </li>
                     </ul>
                 </div>
                 <div class="container my-5">
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-lab6-requirement" role="tabpanel" aria-labelledby="pills-lab6-requirement-tab">
+                        <div class="tab-pane fade show active" id="pills-lab6-requirement" role="tabpanel"
+                            aria-labelledby="pills-lab6-requirement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Requirement</h2>
-                                <span>Chào các em,<br>Cô gửi yêu cầu lab6, thiết kế giao diện cho chức năng user như sau. Tới 11h59 phút ngày hôm
-                                    nay, các em nộp lại đường link github dạng: XXX.github.com/lab6.html<br><br>User Interface Design Requirements:
-                                    <ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Username”</li>
-                                        <li>: Must be unique, maximum 255 characters.</li>
-                                        <li>: A text box with a hint (placeholder) like "Enter your username."</li>
-                                    </ul>:<ul>
-                                        <li>: Password Input (Single-line with hidden text)</li>
-                                        <li>: “Password”</li>
-                                        <li>: Minimum password strength check, maximum 255 characters.</li>
-                                        <li>: A text box that hides the text input, with a “Show/Hide” toggle.</li>
-                                    </ul>:<ul>
-                                        <li>: Email Input</li>
-                                        <li>: “Email Address”</li>
-                                        <li>: Must be a valid email format and unique, maximum 255 characters.</li>
-                                        <li>: A text box with a placeholder like "Enter your email."</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Text Input (Single-line)</li>
-                                        <li>: “Full Name” (optional)</li>
-                                        <li>: A regular text box, with a placeholder like "Enter your full name."</li>
-                                    </ul>:<ul>
-                                        <li>: Dropdown / Select Menu</li>
-                                        <li>: “Role”</li>
-                                        <li>: Required field.</li>
-                                        <li>: A dropdown menu listing the available roles fetched from the system (e.g., Admin, User, etc.).</li>
-                                    </ul>:<ul>
-                                        <li>: File Upload or URL Input (for image URL)</li>
-                                        <li>: “Profile Picture”</li>
-                                        <li>: An upload button or URL field that allows users to upload or enter a URL for their profile picture,
-                                            with a preview box for the image.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Account Created At”</li>
-                                        <li>: Automatically populated field, no input needed. Display this as a timestamp or date.</li>
-                                    </ul>&nbsp;(Read-only):<ul>
-                                        <li>: Text or Date Display (Read-only)</li>
-                                        <li>: “Last Updated At”</li>
-                                        <li>: Automatically updated field when the user’s information is edited. Display this as a timestamp or
-                                            date.</li>
-                                    </ul>:<ul>
-                                        <li>: Button</li>
-                                        <li>: “Create Account” / “Save Changes” (depending on context)</li>
-                                        <li>: A primary action button that submits the form. Ensure it's disabled until all required fields are
-                                            validated.</li>
-                                    </ul>&nbsp;(Optional):<ul>
-                                        <li>: Button</li>
-                                        <li>: “Cancel”</li>
-                                        <li>: A secondary action button that cancels the form submission and returns the user to the previous page.
-                                        </li>
-                                    </ul>Additional Considerations:<ul>
-                                        <li>: Use inline validation messages under each input field for errors like "Username is already taken" or
-                                            "Invalid email format."</li>
-                                        <li>: Ensure the form is responsive, working well on both desktop and mobile.</li>
-                                    </ul></span>
+                                <span>Chào các em,<br><br>Các em làm bài tập này giúp cô nhé.&nbsp;<br>+ Nhóm 2 làm Req 5, 6, 7,
+                                    8<br>Các em hoàn thành xong thì:<br>1. đẩy lên github&nbsp;<br>2. cho vào thư mục
+                                    lab6_MaSV_HoTen rồi nén lại thành file .zip (chỉ .zip) rồi nộp bài lên đây<br>3. nếu làm sai yêu
+                                    cầu bị 0đ</span>
+                                    <div class="row mt-3">
+                                        <div class="col-sm-6">
+                                            <img src="../img/6.Req1.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <img src="../img/6.Req2.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <img src="../img/6.Req3.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                        </div> 
+                                        <div class="col-sm-6">
+                                            <img src="../img/6.Req4.png" alt="" class="img-fluid dark-shadow mb-3 img_requirement">
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-lab6-design" role="tabpanel" aria-labelledby="pills-lab6-design-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <h2>Design</h2>
-
+            
                                 <div class="row">
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab6_1.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab6_1.jpg" download="../img/Lab6_1.jpg">Download</a>
                                     </div>
-                                    <div class="col-sm-6 mt-2">
-                                        <img src="../img/shop.PNG" alt="" class="img-fluid">
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab6_2.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab6_2.jpg" download="../img/Lab6_2.jpg">Download</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-2" style="text-align: center;">
+                                        <img src="../img/Lab6_3.jpg" alt="" class="img-fluid">
+
+                                        <a class="btn bg-blue-color my-3" href="../img/Lab6_3.jpg" download="../img/Lab6_3.jpg">Download</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-lab6-implement" role="tabpanel" aria-labelledby="pills-lab6-implement-tab">
+                        <div class="tab-pane fade" id="pills-lab6-implement" role="tabpanel"
+                            aria-labelledby="pills-lab6-implement-tab">
                             <div class="bg-white p-4 dark-shadow">
                                 <div class="ratio ratio_custome">
                                     <iframe src="./Lab6_home.html" title="Lab 1" allowfullscreen></iframe>
                                 </div>
                                 <div class="button text-center pt-4 border-top">
                                     <a href="./Lab6_home.html" class="btn bg-blue-color">Go to page</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
