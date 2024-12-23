@@ -21,41 +21,54 @@
 
 <body class="bg-gray">
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-white py-2 px-3 border shadow">
+          <li class="breadcrumb-item active" aria-current="page">Login</li>
+        </ol>
+    </nav>
+
     <div class="center pb-5">
 
         <div class="container">
             <div class="lab2_content row my-5 mx-4">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4 bg-white dark-shadow px-4">
-                
-                    <h2 class="my-3 text-center">Đăng nhập</h2>
-                    <div class="form">
-                        <div class="inputBox mb-3">
-                            <input type="text" required=""> <i>Username/Email</i>
-                        </div>
-                        <div class="inputBox">
-                            <input type="password" required=""> <i>Password</i>
-                        </div>
-                        <div class="links container my-4 ">
-                            <div class="row">
-                                <div class="text-start col-6">
-                                    <a href="#" class="text-decoration-none">Quên mật khẩu</a>
-                                </div>
-                                <div class="text-end col-6">
-                                    <a href="#" class="text-decoration-none">Đăng ký</a>
+                    <form onsubmit="toHomePage()">
+                        <h2 class="my-3 text-center">Đăng nhập</h2>
+                        <div class="form">
+                            <div class="inputBox mb-3">
+                                <input type="email" required> <i>Username/Email</i>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" required> <i>Password</i>
+                            </div>
+                            <div class="links container my-4 ">
+                                <div class="row">
+                                    <div class="text-start col-6">
+                                        <a href="#" class="text-decoration-none">Quên mật khẩu</a>
+                                    </div>
+                                    <div class="text-end col-6">
+                                        <a href="#" class="text-decoration-none">Đăng ký</a>
+                                    </div>
                                 </div>
                             </div>
+                            <button href="" class="btn bg-blue-color w-100 rounded-4 mb-4 py-2">Đăng nhập</button>
+                
                         </div>
-                        <a href="./Lab2_homepage.html" class="btn bg-blue-color w-100 rounded-4 mb-4 py-2">Đăng nhập</a>
-
-                    </div>
-                </div> 
+                    </form>
+                </div>
                 <div class="col-sm-4"></div>
             </div>
             
         </div>
     </div>
 
+    <script>
+        function toHomePage(){
+            event.preventDefault(); // Ngăn chặn gửi form mặc định
+            window.location="./Lab2_homepage.html";
+        }
+    </script>
 </body>
 
 </html>
