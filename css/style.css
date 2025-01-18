@@ -125,6 +125,12 @@ body{
   100% { width: 100%; }
 }
 
+
+/**RESULT**/
+.title_introduction{
+    font-size:1.5em;
+}
+
 /**Lab**/
 .bg-gray{
     background-color: #edf4f7;
