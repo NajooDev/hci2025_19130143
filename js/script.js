@@ -19,3 +19,10 @@ $('.carousel-control-prev').on('click', function () {
     }
 });
 
+
+/**LAB1 TABLE */
+
+function removeRowTable(r){
+    var i = r.parentNode.parentNode.rowIndex;
+  document.getElementById("myTable").deleteRow(i);
+}
